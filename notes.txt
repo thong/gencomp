@@ -1,11 +1,12 @@
 The next set of grand challenges (VISIONS conference)
 
-Generational computing
+Generational computing grand challenge
 
 Problem of legacy data sets (Fortran, Cobol) esp in science
 Climate change - backtest against models & data collected a long time
 ago.  Need environment that might not have been explicitly recorded
-(e.g. location of monitoring stations).  Want to apply modern
+(e.g. location of monitoring stations may change over time - source of
+IPCC controversy).  Want to apply modern
 techniques - mapreduce over cobol?
 
 Characteristics of a grand challenge
@@ -21,12 +22,11 @@ email: individual servers, now hotmail, gmail
 blogging - livejournal
 
 what drives these moves?
-ease of use - centralization
-proliferation of competitors, desire for customization -
-decentralization
+towards centralization: ease of use
+towards decentralization: proliferation of competitors, desire for customization
 
 alternate model: wave of innovation that converges on some solution;
-then next wave
+then next wave start
 
 what will effect of platforms be - facebook API, etc.  Can we break
 the cycle? f/b will still want to control consistent interface though
@@ -44,35 +44,42 @@ becoming more complex/brittle with vbscript
 
 What to do about obsolete data formats?
 
-Append-only data - object is pointer.  Only add fields (a la
+Append-only data - object is a pointer.  Only add fields (a la
 inheritance).  gives a kind of version control
 
-Can compress by replacing duplicates with pointers
+Can compress by replacing duplicates with pointers (a la object serialization)
 Move to offline storage
 
 eg. pictures - contain immutable metadata about camera.  layer edits
-on top - crops, color adjustment, etc.  albums on top of that
+on top - crops, color adjustment, etc.  layer albums on top of that
 
 Memoise intermediate transformations - can throw away if space needed,
-can always reconstruct
+can always be reconstructed later
 
 Transformation language for filesystems
 
-Building rome in a day - photos contain metadat which allow lens
-curvature to be corrected later.  permitting future reuse.
+Building rome in a day - photos contain metadata which allow lens
+curvature to be corrected later.  permitting unanticipated future reuse.
 
 
 
-old HTML rendering of archived web pages?
+old HTML rendering of archived web pages? (e.g. obsolete tags no
+longer supported)
 old mbox formats
 
 provenance
-copying sv. linking
+copying vs. linking
 
 Can facebook contain the whole world?
 
 old tax models
-lifestreaming
+lifestreaming / lifelogging
 
 Archiving links, forms, search boxes on old websites (national
 archives note on saved budget pages)
+
+
+Sheet music as example of stored data
+Ancient manuscripts preserve raw data - but need period instruments
+(hardware) and knowledge of period performance practice (program) in order to reproduce
+living music
